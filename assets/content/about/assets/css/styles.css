@@ -1,4 +1,6 @@
 
+body{font-family: 'Roboto Mono', monospace;}
+
 a{	z-index: 11111;
 	color: white;
 	font-family: 'Crimson Text', serif;
@@ -7,7 +9,8 @@ a{	z-index: 11111;
 	transform-origin: top left;
 	position: fixed;
 	left: 7vw;
-	top: 18vh;
+	top: 40vh;
+	text-decoration-line: none;
 }
 .scrollbar{
 	bottom: 0vh;
@@ -18,16 +21,9 @@ background-color: #CDDBE2;
 }
 a:hover{cursor: pointer;}
 
-
-/*.rise{width:10vw;
-background-color: #CDDBE2; 
-height:100vh;
-position: relative;
-}*/
-
 .cv{
-	margin: -100vh auto auto 20vw;
-	width:60vw;
+	margin: -85vh auto auto 40vw;
+	width:50vw;
 	font-size: 15pt;
 	line-height: 35px;
 }
@@ -40,12 +36,14 @@ margin-top: 30px;
 }
 
 .photo{
+	position:absolute;
 	width: 15vw;
 	height: 30vh;
 	background-image:url("../img/1.jpg");
 	background-size:contain;
 	background-repeat: no-repeat;
-	margin-top: 30px;
+	margin-top: -85vh;
+	left: 20vw;
 }
 
 
