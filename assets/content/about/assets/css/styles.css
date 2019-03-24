@@ -1,0 +1,51 @@
+
+a{	z-index: 11111;
+	color: white;
+	font-family: 'Crimson Text', serif;
+	font-size: 60px;
+	transform:rotate(90deg);
+	transform-origin: top left;
+	position: fixed;
+	left: 7vw;
+	top: 18vh;
+}
+.scrollbar{
+	bottom: 0vh;
+	width: 10vw;
+	height: 100vh;
+display: absolute;
+background-color: #CDDBE2; 
+}
+a:hover{cursor: pointer;}
+
+
+/*.rise{width:10vw;
+background-color: #CDDBE2; 
+height:100vh;
+position: relative;
+}*/
+
+.cv{
+	margin: -100vh auto auto 20vw;
+	width:60vw;
+	font-size: 15pt;
+	line-height: 35px;
+}
+
+.name{font-size: 40pt;
+margin-top: 30px;
+}
+.title{font-size: 25pt;
+	margin-top: 30px;
+}
+
+.photo{
+	width: 15vw;
+	height: 30vh;
+	background-image:url("../img/1.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+

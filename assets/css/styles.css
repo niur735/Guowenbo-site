@@ -20,35 +20,33 @@
 .back1{
 	left:3.9vw;
 	animation: mymove 5s forwards;
-	background:url("../img/1.png");
+	background:url("../img/1-1@3x.png");
 	background-size: cover;
 	}
 .back2{
-	left:27.4vw;
+	left:27.05vw;
+	z-index: -1;
 	animation: mymove 5s forwards;
 	animation-delay: 1s;
-	background:url("../img/2.png");
+	background:url("../img/2-1@3x.png");
 	background-size: cover;
 	}
 .back3{
-	left:50.8vw;	
+	left:50.00vw;	
+	z-index: -2;
 	animation: mymove 5s forwards;
 	animation-delay: 2s;
-	background:url("../img/3.png");
+	background:url("../img/3-1@3x.png");
 	background-size: cover;
 }
 .back4{
+	z-index: -3;
 	animation: mymove 5s forwards;	
 	animation-delay: 3s;
-	left:74vw;
-	background:url("../img/4.png");
+	left:73vw;
+	background:url("../img/4-1@3x.png");
 	background-size: cover;
 }
-
-.animate1{animation: wave 7s alternate infinite linear;}
-.animate2{animation: wave 7s alternate infinite linear;}
-.animate3{animation: wave 7s alternate infinite linear;}
-.animate4{animation: wave 7s alternate infinite linear;}
 
 .project{
 	z-index: 1;
@@ -59,28 +57,30 @@
 }
 
 .draw{left:3.9vw;}
-.install{left:27.4vw;}
-.art{left:50.8vw;}
-.about{left:74vw;}
+.install{left:27.05vw;}
+.art{left:50.00vw;}
+.about{left:73vw;}
 
 .draw:hover{
 	cursor: pointer;
-	background: url("../img/1.png");
+	background: url("../img/1-1@3x.png");
 	background-size: cover;
+
 }
 .install:hover{
 	cursor: pointer;
-	background: url("../img/2.png");
+	background: url("../img/2-1@3x.png");
 	background-size: cover;
+
 }
 .art:hover{
 	cursor: pointer;
-	background: url("../img/3.png");
+	background: url("../img/3-1@3x.png");
 	background-size: cover;
 }
 .about:hover{
 	cursor: pointer;
-	background: url("../img/4.png");
+	background: url("../img/4-1@3x.png");
 	background-size: cover;
 }
 
@@ -92,29 +92,21 @@
 	transform-origin: top left;
 	position: relative;
 	left: 220px;
-	top: 70px;
+	top: 90px;
+}
+
+.background{
+	background-color: #CDDBE2;
+	width: 80vw;
+	height: 60vh;
+	position: absolute;
+	bottom: 0;
+	left: 5vw;
+	display: none;
 }
 
 @keyframes mymove {
   from {top:100vh;}
   to {top:30vh;}
 }
-
-@keyframes wave {
-  0%{bottom: 0vh;}
-  10%{bottom:-1vh;}
-  20%{bottom:-2vh;}
-  30%{bottom:-3vh;}
-  40%{bottom:-4vh;}
-  50%{bottom:-2vh;}
-  60%{bottom:-1vh;}
-  70%{bottom:0vh;}
-  80%{bottom:-1vh;}
-  90%{bottom:-2vh;}
-  100%{bottom:-1vh;}
-}
-
-
-
-
 
