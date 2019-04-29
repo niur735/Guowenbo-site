@@ -3,7 +3,6 @@ body{font-family: 'Roboto Mono', monospace;}
 
 a{	z-index: 11111;
 	color: white;
-	font-family: 'Crimson Text', serif;
 	font-size: 60px;
 	transform:rotate(90deg);
 	transform-origin: top left;

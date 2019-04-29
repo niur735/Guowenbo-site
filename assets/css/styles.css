@@ -1,38 +1,48 @@
 .pagename{
-	font-family: 'FZQingKeBenYueSongS-R-GB', serif;
-	font-size: 70pt;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 50pt;
 	color:grey;
-	position: absolute;
-	left:40px;
-	bottom: 60px;
-	color: white;
+text-align: center;
+	margin-top:25vh;
+	color: #CDDBE2;
 	z-index: 3;
+}
+.intro{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15pt;
+	color:grey;
+	text-align: center;
+	margin-top:2vh;
+	color: #CDDBE2;
+	z-index: 3;
+	display: none;
 }
 
 .back{
 	z-index: -1;
-	width: 23.6vw;
-	height: 70vh;
+	width: 25.5vw;
+	height: 30vh;
 	position: fixed;
 	bottom:-70vh;
 }
 
 .back1{
-	left:3.9vw;
+	left:0vw;
 	animation: mymove 5s forwards;
 	background:url("../img/1-1@3x.png");
 	background-size: cover;
 	}
 .back2{
-	left:27.05vw;
+	left:24.6vw;
 	z-index: -1;
+	height: 30vh;
 	animation: mymove 5s forwards;
 	animation-delay: 1s;
 	background:url("../img/2-1@3x.png");
 	background-size: cover;
 	}
 .back3{
-	left:50.00vw;	
+	left:49vw;	
 	z-index: -2;
 	animation: mymove 5s forwards;
 	animation-delay: 2s;
@@ -43,23 +53,23 @@
 	z-index: -3;
 	animation: mymove 5s forwards;	
 	animation-delay: 3s;
-	left:73vw;
+	left:74vw;
 	background:url("../img/4-1@3x.png");
 	background-size: cover;
 }
 
 .project{
 	z-index: 1;
-	width: 23.6vw;
+	width: 25.5vw;
 	height: 70vh;
 	position: fixed;
 	bottom: 0;
 }
 
-.draw{left:3.9vw;}
-.install{left:27.05vw;}
-.art{left:50.00vw;}
-.about{left:73vw;}
+.draw{left:0vw;top:70vh}
+.install{left:24.6vw;top:70vh}
+.art{left:49vw;top:70vh}
+.about{left:74vw;top:70vh}
 
 .draw:hover{
 	cursor: pointer;
@@ -86,27 +96,27 @@
 
 .text{
 	color: white;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 30px;
-	transform:rotate(90deg);
 	transform-origin: top left;
 	position: relative;
-	left: 220px;
-	top: 90px;
+	top: 10vh;
+	text-align: center;
 }
 
 .background{
 	background-color: #CDDBE2;
-	width: 80vw;
-	height: 60vh;
+	width: 100vw;
+	height: 20vh;
 	position: absolute;
 	bottom: 0;
-	left: 5vw;
 	display: none;
 }
 
+
+
 @keyframes mymove {
   from {top:100vh;}
-  to {top:30vh;}
+  to {top:70vh;}
 }
 

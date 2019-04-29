@@ -23,7 +23,7 @@ $(".back1").ready(function(){
   $(".back1").one(animationEvent,
               function(event) {
     $(".back1").css('background','url("assets/img/1.gif")');
-    $(".back1").css('background-size','29.5vw 70vh');
+    $(".back1").css('background-size','31vw 70vh');
     $(".back1").css('bottom','-2vh');
   });
 });
@@ -32,7 +32,7 @@ $(".back2").ready(function(){
   $(".back2").one(animationEvent,
               function(event) {
     $(".back2").css('background','url("assets/img/2.gif")');
-    $(".back2").css('background-size','23.7vw 70vh');
+    $(".back2").css('background-size','25.5vw 70vh');
     $(".back2").css('bottom','-0.5vh');
   });
 });
@@ -41,8 +41,9 @@ $(".back3").ready(function(){
   $(".back3").one(animationEvent,
               function(event) {
     $(".back3").css('background','url("assets/img/3.gif")','background-size');
-    $(".back3").css('background-size','26vw 70vh');
+    $(".back3").css('background-size','28vw 70vh');
     $(".back3").css('bottom','-1vh');
+    $(".back3").css('left','49.5vw');
   });
 });
 
@@ -50,9 +51,10 @@ $(".back4").ready(function(){
   $(".back4").one(animationEvent,
               function(event) {
     $(".back4").css('background','url("assets/img/4.gif")');
-    $(".back4").css('background-size','26vw 70vh');
+    $(".back4").css('background-size','32vw 70vh');
     $(".back4").css('bottom','-1vh');
      $('.background').css('display','block');
+     $('.intro').css('display','block');
   });
 });
 
