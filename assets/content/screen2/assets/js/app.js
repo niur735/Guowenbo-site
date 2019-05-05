@@ -2,12 +2,14 @@ $('.link').mouseenter(function(){
     $('.link1').css('color','black');
     $('.link2').css('color','black');
     $('.pagename').css('color','black');
+    $('.intro').css('color','black');
 });
 
 $('.link').mouseleave(function(){
     $('.link1').css('color','white');
     $('.link2').css('color','white');
     $('.pagename').css('color','white');
+    $('.intro').css('color','white');
 });
 
 
@@ -51,9 +53,6 @@ var a = 1;
 var b = 1;
 var c = 1;
 var d = 1;
-var e = 1;
-var f = 1;
-var g = 1;
 
 
 $('.cover1').click(function(){
@@ -108,3 +107,31 @@ else{
     d=1;}
 });
 
+
+$('.play1').click(function(){
+    $('.video').css('display','block');
+    $('.vc').append('<video width="1280" height="700" controls><source src="assets/img/1.mp4" type="video/mp4"></video>');
+    $('.close').css('display','block');
+    $('.show').css('display','none');
+});
+
+$('.play2').click(function(){
+    $('.video').css('display','block');
+    $('.vc').append('<video width="1280" height="700" controls><source src="assets/img/2.mp4" type="video/mp4"></video>');
+    $('.close').css('display','block');
+    $('.show').css('display','none');
+});
+
+$('.play3').click(function(){
+    $('.video').css('display','block');
+    $('.vc').append('<video width="1280" height="700" controls><source src="assets/img/3.mov" type="video/mov"></video>');
+    $('.close').css('display','block');
+    $('.show').css('display','none');
+});
+
+$('.close').click(function(){
+    $('.video').css('display','none');
+    $('.vc').empty();
+     $('.close').css('display','none');
+    $('.show').css('display','block');
+});

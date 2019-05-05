@@ -37,10 +37,19 @@ margin: 0;}
 	left:47.5vw;
 	z-index: 11111;
 	position: fixed;
-	top: 0.5vh;
+	top: -2vh;
 	width: 5vw;
 }
 
+.intro{
+	color: #ffffff;
+	font-size: 15px;
+	left:46vw;
+	z-index: 11111;
+	position: fixed;
+	top: 5vh;
+	width: 10vw;
+}
 .img{position: relative;
 left: 35vw;
 color: blue;}
@@ -115,6 +124,13 @@ position: absolute;
 width: 30vw;
 display: none;}
 
+.play:hover{
+background-color: #CDDBE2;
+color: white;}
+.play{width: 3vw;
+background-color: black;
+color: white;
+margin-top: 20px}
 
 .detail{
 	margin-left:52vw;
@@ -126,7 +142,22 @@ display: none;}
 	text-align: left;
 }
 
+.video{width: 100vw;
+height:100vh;
+background-color: black;
+display: none;
+}
 
+video{
+	position: absolute;
+	left: 10vw;
+	top:5vh;
+}
+
+.close{color: white;
+position: absolute;
+right: 2vw;
+top: 5vh;}
 
 
 

@@ -1,8 +1,14 @@
-// $(function(){
-//     $(window).scroll(function() {
-//         var $rise = $('.rise');
-//         var st = $(this).scrollTop();
-//         $rise.height( st*0.6);
-//     }).scroll();
+$('.link').mouseenter(function(){
+    $('.link1').css('color','black');
+    $('.link2').css('color','black');
+    $('.pagename').css('color','black');
+});
 
-// });
+$('.link').mouseleave(function(){
+    $('.link1').css('color','white');
+    $('.link2').css('color','white');
+    $('.pagename').css('color','white');
+});
+
+
+

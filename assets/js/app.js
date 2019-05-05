@@ -54,7 +54,6 @@ $(".back4").ready(function(){
     $(".back4").css('background-size','32vw 70vh');
     $(".back4").css('bottom','-1vh');
      $('.background').css('display','block');
-     $('.intro').css('display','block');
   });
 });
 

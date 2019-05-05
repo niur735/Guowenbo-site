@@ -31,16 +31,26 @@ margin: 0;}
 	font-family: 'Roboto Mono', monospace;
 }
 
+
 .pagename{
 	color: #ffffff;
 	font-size: 20px;
 	left:47.5vw;
 	z-index: 11111;
 	position: fixed;
-	top: 0.5vh;
+	top: -2vh;
 	width: 5vw;
 }
 
+.intro{
+	color: #ffffff;
+	font-size: 15px;
+	left:46vw;
+	z-index: 11111;
+	position: fixed;
+	top: 5vh;
+	width: 10vw;
+}
 .img{position: relative;
 left: 35vw;
 color: blue;}
